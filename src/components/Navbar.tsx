@@ -11,7 +11,7 @@ const NavIcons = dynamic(() => import("./NavIcons"), { ssr: false });
 
 const Navbar = () => {
   return (
-    <div className="h-20 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 relative">
+    <div className="h-20 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 relative bg-slate-100">
       <div className="h-full flex items-center justify-between md:hidden">
         {/* MOBILE */}
         <Link href="/">
