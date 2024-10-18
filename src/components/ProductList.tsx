@@ -47,7 +47,7 @@ const ProductList = async ({
     }
   }
 
-  const res = await productQuery.find();
+ const res = await productQuery.find();
   // console.log(res)
   // console.log(res.items[0].price);
   return (
